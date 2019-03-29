@@ -1,11 +1,18 @@
 package person.consciousness;
 
 public class Knowledge {
-	private  int level;
+
+    int level;
+
     public Knowledge(int level) {
-     this.level = level;
+        this.level = level;
     }
-    public int getKnowledge () {
-    	return level;
-    } 
+
+    public int getKnowledgeLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
 }
